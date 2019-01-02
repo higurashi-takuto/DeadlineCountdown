@@ -1,0 +1,75 @@
+/************
+  Import
+************/
+@import url("./sans.css");
+@import url("./yakuhanjp.css");
+
+
+
+/************
+  Reset
+************/
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  text-transform: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  font-family: "YakuHanJP", "Sans", sans-serif;
+  font-weight: 400;
+  color: #444;
+  font-size: 16px;
+  text-align: left;
+  vertical-align: baseline;
+  background: transparent;
+  line-height: 1;
+}
+h1 {font-size: 32px;}
+h2 {font-size: 28px;}
+h3 {font-size: 24px;}
+h4 {font-size: 18px;}
+h5 {font-size: 12px;}
+h6 {font-size: 10px;}
+p {font-size: 16px;}
+a {text-decoration: none;}
+img {width: 100%;}
+hr {
+  border-top: solid 2px #aaa;
+  margin: 40px 0;
+}
+html, body {background-color: #fff;}
+
+
+
+/************
+  Option
+************/
+.R {font-weight: 400;}
+.H {font-weight: 900;}
+.center {text-align: center;}
+.link {color: #08f;}
+
+
+
+/************
+  Customized
+************/
+.thesis-clock, .outline-clock, .keynote-clock {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  height: 100px;
+}
+.countdown-amount {
+  font-weight: 900;
+}
+.countdown-period {
+  margin-top: 10px;
+  text-align: center;
+}
+.margin {
+  margin: 20px 0;
+}

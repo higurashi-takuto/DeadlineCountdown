@@ -1,0 +1,18 @@
+
+@font-face {
+  font-family: "YakuHanJP";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/YakuHanJP/YakuHanJP-Regular.eot");
+  src: url("../fonts/YakuHanJP/YakuHanJP-Regular.woff2") format("woff2"),
+       url("../fonts/YakuHanJP/YakuHanJP-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "YakuHanJP";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/YakuHanJP/YakuHanJP-Black.eot");
+  src: url("../fonts/YakuHanJP/YakuHanJP-Black.woff2") format("woff2"),
+       url("../fonts/YakuHanJP/YakuHanJP-Black.woff") format("woff");
+}

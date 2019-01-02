@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>そつろん！</title>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/jquery.countdown.css">
+</head>
+<body>
+  <h1 class="H center margin">しめきりカウントダウン！</h1>
+  <hr>
+  <h2 class="H center margin">そつろん！</h1>
+  <p class="H center margin">1月25日13:00まで</p>
+  <div class="thesis-clock"></div>
+  <hr>
+  <h2 class="H center margin">こうがい！</h1>
+  <p class="H center margin">1月28日18:00まで</p>
+  <div class="outline-clock"></div>
+  <hr>
+  <h2 class="H center margin">ぷれぜん！</h1>
+  <p class="H center margin">2月6日23:00まで</p>
+  <div class="keynote-clock"></div>
+  <hr>
+  <h2 class="H center margin">そつぎょう？</h1>
+  <script src="assets/js/jquery-1.11.2.min.js"></script>
+  <script src="assets/js/moment.js"></script>
+  <script src="assets/js/moment-timezone.min.js"></script>
+  <script src="assets/js/jquery.plugin.min.js"></script>
+  <script src="assets/js/jquery.countdown.min.js"></script>
+  <script>
+    window.onload = function() {
+      document.body.onclick = function() {
+        if (this.webkitRequestFullScreen) {
+          this.webkitRequestFullScreen();
+        }
+        else if (this. mozRequestFullScreen) {
+          this.mozRequestFullScreen();
+        }
+      };
+    };
+    $(document).ready(function(){
+      var thesisDeath = moment("201901251300", "YYYYMMDDhhmm").toDate();
+      $('.thesis-clock').countdown({until: thesisDeath, format: 'ODHMS'});
+      var outlineDeath = moment("201901281800", "YYYYMMDDhhmm").toDate();
+      $('.outline-clock').countdown({until: outlineDeath, format: 'ODHMS'});
+      var keynoteDeath = moment("201902062300", "YYYYMMDDhhmm").toDate();
+      $('.keynote-clock').countdown({until: keynoteDeath, format: 'ODHMS'});
+    });
+  </script>
+</body>
+</html>

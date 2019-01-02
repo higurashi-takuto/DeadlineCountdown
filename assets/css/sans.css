@@ -1,0 +1,18 @@
+
+@font-face {
+  font-family: "Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Sans/R.woff2") format("woff2"),
+       url("../fonts/Sans/R.woff") format("woff"),
+       url("../fonts/Sans/R.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Sans";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/Sans/H.woff2") format("woff2"),
+       url("../fonts/Sans/H.woff") format("woff"),
+       url("../fonts/Sans/H.otf") format("opentype");
+}
